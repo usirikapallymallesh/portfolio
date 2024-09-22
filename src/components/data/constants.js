@@ -15,7 +15,7 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/usirikapallymallesh/",
   twitter: "https://x.com/U_MALLESH_",
   insta: "https://www.instagram.com/mallesh.yadav_/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  facebook: "https://www.facebook.com/smallesh.yadav.9",
 };
 
 export const skills = [

@@ -16,7 +16,6 @@ import { BrowserRouter } from "react-router-dom";
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   color: ${({ theme }) => theme.text_primary};
-  overflow: scroll;
   position: relative;
 `;
 

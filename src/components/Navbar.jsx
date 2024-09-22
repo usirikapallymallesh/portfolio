@@ -138,9 +138,9 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo>
-          <NavLink href="#About">
-            <Img src={logo} alt="logo" />
+        <NavLogo to="/">
+          <NavLink href="#About" >
+            <Img src={logo} alt="logo"  />
           </NavLink>
         </NavLogo>
 
