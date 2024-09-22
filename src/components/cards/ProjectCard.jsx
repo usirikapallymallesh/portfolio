@@ -1,3 +1,4 @@
+import { blueGrey } from "@mui/material/colors";
 import React from "react";
 import styled from "styled-components";
 
@@ -32,8 +33,9 @@ const Tags = styled.div`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 2px;
   margin-top: 4px;
+  color: ${({ theme }) => theme.white + 25};
 `;
 const Details = styled.div`
   width: 100%;
@@ -98,14 +100,20 @@ const Button = styled.a`
 const ProjectCard = ({ project }) => {
   return (
     <Button href={project.webapp} target="_blank">
-      <Card >
+      <Card>
         <Image src={project.image} alt="image" />
-        <Tags></Tags>
         <Details>
           <Title>{project.title}</Title>
           <Date>{project.date}</Date>
           <Description>{project.description}</Description>
         </Details>
+        <Tags>
+          {project.tags?.map((tag, index) => (
+            <div key={index} style={{ margin: "0 6px", fontWeight: "400" }}>
+              {tag}
+            </div>
+          ))}
+        </Tags>
         <Members>
           {project.member?.map((member) => (
             <Avatar src={member.img} alt="avatar image" />
