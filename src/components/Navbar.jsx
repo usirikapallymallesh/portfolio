@@ -3,6 +3,7 @@ import styled, { useTheme } from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Bio } from "./data/constants";
 import { MenuRounded } from "@mui/icons-material";
+import logo from "./images/port-logo.png";
 
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -125,6 +126,11 @@ const MobileMenu = styled.ul`
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
 `;
 
+const Img = styled.img`
+  width: 140px;
+  height: 60px;
+`;
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
@@ -132,8 +138,10 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">
-          <a style={{ color: "white" }}>GFG </a>
+        <NavLogo>
+          <NavLink href="#About">
+            <Img src={logo} alt="logo" />
+          </NavLink>
         </NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
