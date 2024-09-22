@@ -194,24 +194,24 @@ export const projects = [
     description:
       "An e-commerce clothing platform that offers a seamless shopping experience, featuring a wide range of trendy apparel and accessories for fashion-conscious individuals.",
     image:
-      "https://i.imgur.com/rtiCMDk.png",
+      "https://i.imgur.com/jJfZuWf.png",
     tags: ["React Js", "Tailwind Css", "Redux Toolkit"],
     category: "web app",
     github: "https://github.com/usirikapallymallesh/clothing.git",
     webapp: "https://clothing-theta-sage.vercel.app/",
   },
   {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
+    id: 3,
+    title: "Dashboards",
+    date: "Sep 2024 - Sep 2024",
     description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
+      "created some of useful dashboard that are used in various places like to see the sales in an store and for aniziation ",
     image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+      "https://i.imgur.com/VNb2C1x.png",
+    tags: ["ReCharts", "React", "Tailwind Css", "Framer Motion"],
+    category: "Web app",
+    github: "https://github.com/usirikapallymallesh/Dashboards",
+    webapp: "https://dashboards-blush.vercel.app/",
   },
   {
     id: 8,

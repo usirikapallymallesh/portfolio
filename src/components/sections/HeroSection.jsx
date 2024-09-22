@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
-import profileImage from "../images/profileImage.jpg";
+import profileImage from "../images/profileImage1.jpg";
 import StarCanvas from "../canvas/Stars";
 import HeroBgAnimation from "../HeroBgAnimation/index";
 import { Bio } from "../data/constants";
