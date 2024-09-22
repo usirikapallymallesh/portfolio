@@ -127,8 +127,8 @@ const MobileMenu = styled.ul`
 `;
 
 const Img = styled.img`
-  width: 140px;
-  height: 60px;
+  width: 58px;
+  height: 52px;
 `;
 
 const Navbar = () => {
