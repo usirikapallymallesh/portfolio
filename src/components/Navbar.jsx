@@ -24,6 +24,9 @@ const NavbarContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   font-size: 1rem;
+  @media (max-width: 600px) {
+    padding: 0px 15px;
+  }
 `;
 const NavLogo = styled(LinkR)`
   width: 80%;
