@@ -26,7 +26,7 @@ const NavbarContainer = styled.div`
   justify-content: space-between;
   font-size: 1rem;
   @media (max-width: 600px) {
-    padding: 0px 15px;
+    padding: 0px 20px;
   }
 `;
 const NavLogo = styled(LinkR)`
@@ -127,8 +127,8 @@ const MobileMenu = styled.ul`
 `;
 
 const Img = styled.img`
-  width: 58px;
-  height: 52px;
+  width: 45px;
+  height: 42px;
 `;
 
 const Navbar = () => {
@@ -139,8 +139,8 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <NavLink href="#About" >
-            <Img src={logo} alt="logo"  />
+          <NavLink href="#About">
+            <Img src={logo} alt="logo" />
           </NavLink>
         </NavLogo>
 
