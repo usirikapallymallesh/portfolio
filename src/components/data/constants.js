@@ -132,7 +132,7 @@ export const education = [
     grade: "Grade 1",
     desc: "I am currently pursuing a MERN stack course at Geekster, where I am learning to build dynamic web applications using MongoDB, Express.js, React, and Node.js. This hands-on program emphasizes practical skills, enabling me to develop robust applications and gain a solid understanding of full-stack development in a collaborative environment.",
     degree:
-      "Bachelor of Technology - BTech, Electrical  and Electronics Engineering ",
+      "Front End - MERN Stack development ",
   },
   {
     id: 1,
