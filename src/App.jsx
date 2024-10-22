@@ -8,6 +8,7 @@ import Projects from "./components/sections/Projects";
 import Footer from "./components/sections/Footer";
 import Contact from "./components/sections/Contact";
 import pageLoaderAnimation from "../src/components/loader/pageLoader.json";
+import BackToTopButton from './components/BackToTopButton'
 import React, { useEffect, useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./components/utils/Themes";
@@ -87,6 +88,7 @@ const App = () => {
                   <Contact />
                 </Wrapper>
                 <Footer />
+                <BackToTopButton />
               </div>
             </Body>
           </BrowserRouter>
